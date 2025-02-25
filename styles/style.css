@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("../assets/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+:root {
+    --color-green-500: hsl(158, 36%, 37%);
+    --color-green-700: hsl(158, 42%, 18%);
+    --color-black: hsl(212, 21%, 14%);
+    --color-grey: hsl(228, 12%, 48%);
+    --color-cream: hsl(30, 38%, 92%);
+    --color-white: hsl(0, 0%, 100%);
+    --fs-1: 2rem;
+    --fs-2: 0.875rem;
+    --fs-3: 0.75rem;
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+h1, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-cream);
+}
+
+.card {
+    font-size: var(--fs-2);
+    font-weight: var(--fw-medium);
+    color: var(--color-grey);
+    width: 21.4375rem;
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
+
+.card__image {
+    border-radius: 8px 8px 0 0;
+}
+
+.card__content {
+    padding: 1.5rem;
+}
+
+.card__p-sm {
+    font-size: var(--fs-3);
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+}
+
+.card__h1 {
+    font-family: "Fraunces";
+    font-size: var(--fs-1);
+    font-weight: var(--fw-bold);
+    color: var(--color-black);
+    margin: 0.5625rem 0 0.9375rem;
+}
+
+.card__content__price {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 1rem;
+}
+
+.card__p-lg {
+    font-family: "Fraunces";
+    font-size: var(--fs-1);
+    font-weight: var(--fw-bold);
+    color: var(--color-green-500);
+}
+
+.card__content__price__original {
+    margin-left: 1.125rem;
+    text-decoration: line-through;
+}
+
+.card__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    text-decoration: none;
+    background-color: var(--color-green-500);
+    padding: 0.9375rem 0;
+    border-radius: 7px;
+}
+
+.card__link:hover, .card__link:focus {
+    background-color: var(--color-green-700);
+}
+
+.card__icon {
+    margin-right: 0.6875rem;
+}
+
+@media screen and (min-width: 48em) {
+    .card {
+        display: flex;
+        width: auto;
+    }
+
+    .card__image {
+        border-radius: 8px 0 0 8px;
+        width: 18.75rem;
+    }
+
+    .card__content {
+        width: 18.75rem;
+        padding: 2rem
+    }
+
+    .card__h1 {
+        margin: 1.0625rem 0 1.4375rem;
+    }
+
+    .card__content__price {
+        margin: 1.8125rem 0 1.625rem;
+    }
+}
