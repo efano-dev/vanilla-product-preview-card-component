@@ -22,7 +22,9 @@
     --fw-bold: 700;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -31,7 +33,8 @@ body {
     font-family: "Montserrat";
 }
 
-h1, p {
+h1,
+p {
     margin: 0;
 }
 
@@ -109,7 +112,8 @@ main {
     border-radius: 7px;
 }
 
-.card__link:hover, .card__link:focus {
+.card__link:hover,
+.card__link:focus {
     background-color: var(--color-green-700);
 }
 
@@ -130,7 +134,7 @@ main {
 
     .card__content {
         width: 18.75rem;
-        padding: 2rem
+        padding: 2rem;
     }
 
     .card__h1 {

@@ -1,15 +1,15 @@
 # Frontend Mentor - Product Preview Card Component Solution
 
-This is a solution to the [Product Preview Card Component Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product Preview Card Component Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+    - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -26,10 +26,6 @@ Users should be able to:
 ![](./assets/images/product-preview-card-component-desktop.png)
 ![](./assets/images/product-preview-card-component-desktop-active.png)
 ![](./assets/images/product-preview-card-component-mobile.png)
-
-### Links
-
-- Live Site URL: [Product Preview Card Component](https://efano-dev.github.io/vanilla-product-preview-card-component/)
 
 ## My process
 

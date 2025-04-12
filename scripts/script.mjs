@@ -1,4 +1,4 @@
-import { webPageURL } from "./global_variables.js";
+import { webPageURL } from "./global_variables.mjs";
 
 const anchorTags = document.getElementsByTagName("a");
 
